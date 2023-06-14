@@ -1,0 +1,9 @@
+- name: Setup v2ray
+  # You may pin to the exact commit or the version.
+  # uses: wangsijie/setup-v2ray@8ead7a4b26a60438219b9322f2174cc6af92a0eb
+  uses: bb/setup-v2ray@v1
+  with:
+    # base64 encoded config.json
+    config-base64: 
+    # version number of v2ray
+    v2ray-version: # optional, default is 4.34.0
